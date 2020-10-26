@@ -50,6 +50,7 @@ COPY \
 
 COPY \
     ./src/commands/check \
+    ./src/commands/delete-excessive-pvc \
     ./src/commands/fix-log-symlinks \
     ./src/commands/tools-usage \
     ./src/commands/template \
